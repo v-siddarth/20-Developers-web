@@ -16,8 +16,10 @@ const FooterThree = () => {
                     </Link>
                   </div>
                   <p>
-                    Agency is a full-service agency, busy designing and building
-                    beautiful digital products, brands, and experiences.
+                  20s Developers is a technology company dedicated to building 
+                    innovative digital solutions, from custom websites and mobile 
+                    apps to cutting-edge SaaS and PaaS products. Let us help you 
+                    grow your business in the digital age.
                   </p>
                 </div>
               </div>
@@ -28,7 +30,7 @@ const FooterThree = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© 2023, Creative Agency.</p>
+                  <p>© 2023, 20s Developers.</p>
                 </div>
               </div>
 

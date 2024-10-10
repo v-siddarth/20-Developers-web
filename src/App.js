@@ -5,7 +5,7 @@ import CreativeAgency from "./pages/Home/CreativeAgency";
 import AboutUs from "./pages/About/AboutUs";
 import AboutMe from "./pages/About/AboutMe"; 
 import TeamPage from "./pages/Team/TeamPage";
-import TeamPageDetails from "./pages/Team/TeamPageDetails";
+// import TeamPageDetails from "./pages/Team/TeamPageDetails";
 import PortfolioDetailsPage from "./pages/PortfolioDetailsPage";
 import ServicesDetailsPage from "./pages/ServicesDetailsPage";
 import ContactPage from "./pages/ContactPage";
@@ -58,14 +58,14 @@ function App() {
       <Routes>
         <Route path="/" element={<CreativeAgency />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/about-me" element={<AboutMe />} />
+        {/* <Route path="/about-me" element={<AboutMe />} /> */}
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/team-details" element={<TeamPageDetails />} />
+        {/* <Route path="/team-details" element={<TeamPageDetails />} /> */}
         <Route path="/project-details" element={<PortfolioDetailsPage />} />
         <Route path="/services-details" element={<ServicesDetailsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog-details" element={<BlogDetailsPage />} />
+        {/* <Route path="/blog" element={<BlogPage />} /> */}
+        {/* <Route path="/blog-details" element={<BlogDetailsPage />} /> */}
       </Routes>
     </>
   );

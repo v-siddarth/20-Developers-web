@@ -1,5 +1,5 @@
 {
-  "name": "xolio_react",
+  "name": "20s_developer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-animated-cursor": "^2.5.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
     "react-iframe": "^1.8.5",
     "react-odometerjs": "^3.1.0",
     "react-router-dom": "^6.8.1",

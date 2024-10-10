@@ -62,7 +62,7 @@ const ProjectArea = () => {
               We specialize in crafting tailored digital solutions that drive results. Here’s a glimpse of our innovative work across various industries.
               </p>
               <div className="content-bottom">
-                <Link to="/about-me" className="btn">
+                <Link to="/services-details" className="btn">
                   View All Project <span></span>
                 </Link>
 
@@ -90,7 +90,7 @@ const ProjectArea = () => {
                       sliderRef.current = swiper;
                     }}
                   >
-                    {[1, 2, 3, 2].map((x, index) => (
+                    {[1, 2, 3, 4].map((x, index) => (
                       <SwiperSlide key={x + index + Math.random()}>
                         <div className="swiper-slide">
                           <div className="project-item">

@@ -1,5 +1,5 @@
 import React from "react";
-import BrandAreaThree from "../../components/Brand/BrandAreaThree";
+// import BrandAreaThree from "../../components/Brand/BrandAreaThree";
 import BreadcrumbArea from "../../components/BreadcrumbArea/BreadcrumbArea";
 import CommunityArea from "../../components/CommunityArea/CommunityArea";
 import NewsLetterAreaTwo from "../../components/NewsLetter/NewsLetterAreaTwo";
@@ -18,7 +18,7 @@ const TeamPage = () => {
       <CommunityArea />
       <TeamAreaThree />
       <NewsLetterAreaTwo />
-      <BrandAreaThree />
+      {/* <BrandAreaThree /> */}
     </Layout>
   );
 };

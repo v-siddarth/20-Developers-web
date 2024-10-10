@@ -7,7 +7,7 @@ const InnerContactInfo = () => {
       title: "Address",
       desc: (
         <>
-          <p>UN82 Dhanmondi Dhaka - 1207</p>
+          <p>Panvel, Navi Mumbai, Maharashtra</p>
         </>
       ),
     },
@@ -16,7 +16,7 @@ const InnerContactInfo = () => {
       title: "Address",
       desc: (
         <>
-          <a href="mailto:your@email.com">your@email.com</a>
+          <a href="mailto:20sdevelopers4209@gmail.com">20sdevelopers4209@gmail.com</a>
         </>
       ),
     },
@@ -25,7 +25,7 @@ const InnerContactInfo = () => {
       title: "Address",
       desc: (
         <>
-          <a href="tel:0123456789">+12548789300</a>
+          <a href="tel:8484049485">+91 8484049485</a>
         </>
       ),
     },

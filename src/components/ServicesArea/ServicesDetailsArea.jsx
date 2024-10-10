@@ -12,11 +12,7 @@ const ServicesDetailsArea = () => {
 
             <div className="services-details-content text-center">
               <p>
-                Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                Scelerisque euismod varius mi, congue eget sed vestibulum,
-                ornare cras sed nec.
+              At 20s Developers, we offer a comprehensive range of services designed to help businesses thrive in the digital age. From business registration and brand identity to custom software development and marketing solutions, we provide everything you need to establish, grow, and scale your business.
               </p>
             </div>
           </div>

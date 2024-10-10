@@ -3,44 +3,75 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Xolio - Creative Agency ReactJS Template</title>
-    <meta name="description" content="" />
+    <title>20s Developers - Your Trusted Technology Partner for Business Growth</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="20s Developers is a leading technology company specializing in web development, mobile apps, SaaS, PaaS, and business growth solutions. Let us help your business succeed in the digital age." />
+    <meta name="keywords" content="web development, mobile app development, SaaS, PaaS, business growth solutions, digital transformation, 20s Developers" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="20s Developers" />
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="20s Developers - Your Trusted Technology Partner for Business Growth" />
+    <meta property="og:description" content="We offer cutting-edge web and mobile app development, SaaS & PaaS products, and business solutions to help your company succeed in the digital era." />
+    <meta property="og:image" content="%PUBLIC_URL%/oglogo.jpg" />
+    <meta property="og:url" content="https://www.20sdevelopers.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="20s Developers - Your Trusted Technology Partner for Business Growth" />
+    <meta name="twitter:description" content="We specialize in creating tailored web, mobile, and SaaS solutions to drive your business forward." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/img/twitter_image.png" />
+    
+    <!-- Viewport and Compatibility -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="%PUBLIC_URL%/img/favicon.png" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="%PUBLIC_URL%/img/favicon.png"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/img/favicon.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="theme-color" content="#317EFB"/>
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="%PUBLIC_URL%/oglogo.jpg" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/oglogo.jpg" />
+    
+    <!-- Web App Manifest -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <!-- Google Analytics (replace 'UA-XXXXXXXXX-X' with your tracking ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Schema.org JSON-LD for Business Information -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "20s Developers",
+        "url": "https://www.20sdevelopers.com",
+        "logo": "%PUBLIC_URL%/oglogo.jpg",
+        "sameAs": [
+          "https://www.facebook.com/20sDevelopers",
+          "https://www.twitter.com/20sDevelopers",
+          "https://www.linkedin.com/company/20sDevelopers",
+          "https://www.instagram.com/20sDevelopers"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8484049485",
+          "contactType": "Customer Support",
+          "areaServed": "Worldwide",
+          "availableLanguage": "English"
+        }
+      }
+    </script>
   </head>
+  
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

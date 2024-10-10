@@ -1,43 +1,31 @@
 import React from "react";
-import TeamAreaTwoItem from "./TeamAreaTwoItem";
+import { FaUserCircle } from 'react-icons/fa'; // Using FontAwesome or similar for avatars
 
 const TeamAreaThree = () => {
   const team_members = [
     {
-      src: "/img/team/inner_team01.jpg",
-      url: "/team-details",
-      title: "Alena Rosser",
-      designation: "CEO Kawasaki Inc.",
+      title: "Mr. Siddarth Gadge",
+      designation: "CEO, Co-founder",
     },
     {
-      src: "/img/team/inner_team02.jpg",
-      url: "/team-details",
-      title: "Emerson Saris",
-      designation: "CEO Kawasaki Inc.",
+      title: "Mr. Aadarsh Mane",
+      designation: "CTO, Co-founder",
     },
     {
-      src: "/img/team/inner_team03.jpg",
-      url: "/team-details",
-      title: "Tiana Dokidis",
-      designation: "CEO Kawasaki Inc.",
+      title: "Mr. Karan Bhanushali",
+      designation: "Marketing Head",
     },
     {
-      src: "/img/team/inner_team04.jpg",
-      url: "/team-details",
-      title: "Ryan Vetrovs",
-      designation: "CEO Kawasaki Inc.",
+      title: "Mr. Nikhil Devkule",
+      designation: "Social Media Manager",
     },
     {
-      src: "/img/team/inner_team05.jpg",
-      url: "/team-details",
-      title: "Lindsey Schleifer",
-      designation: "CEO Kawasaki Inc.",
+      title: "Mr. Harsh Mate",
+      designation: "MERN Developer",
     },
     {
-      src: "/img/team/inner_team06.jpg",
-      url: "/team-details",
-      title: "Dulce Dokidis",
-      designation: "CEO Kawasaki Inc.",
+      title: "Ms. Prachi Mate",
+      designation: "Financial Executive",
     },
   ];
 
@@ -45,9 +33,13 @@ const TeamAreaThree = () => {
     <section className="team-area-two pt-110 pb-100">
       <div className="container">
         <div className="row justify-content-center">
-          {team_members.map((x, index) => (
+          {team_members.map((member, index) => (
             <div key={index} className="col-lg-4 col-md-6 col-sm-10">
-              <TeamAreaTwoItem item={x} className="team-item-hover" />
+              <div className="team-item-hover text-center p-4 border rounded">
+                <FaUserCircle size={80} color="#888" /> {/* Using avatar icon */}
+                <h4 className="mt-3">{member.title}</h4>
+                <p>{member.designation}</p>
+              </div>
             </div>
           ))}
         </div>

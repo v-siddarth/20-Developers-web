@@ -12,12 +12,14 @@ const FooterTwo = () => {
                 <div className="footer-content-two text-center">
                   <div className="logo">
                     <Link to="/">
-                      <img src="/img/logo/w_logo.png" alt="" />
+                      <img src="/img/logo/20s_logo.png" alt="20s Developers Logo" />
                     </Link>
                   </div>
                   <p>
-                    Agency is a full-service agency, busy designing and building
-                    beautiful digital products, brands, and experiences.
+                    20s Developers is a technology company dedicated to building 
+                    innovative digital solutions, from custom websites and mobile 
+                    apps to cutting-edge SaaS and PaaS products. Let us help you 
+                    grow your business in the digital age.
                   </p>
                 </div>
               </div>
@@ -28,7 +30,7 @@ const FooterTwo = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© 2023, Creative Agency.</p>
+                  <p>© 2023, 20s Developers. All rights reserved.</p>
                 </div>
               </div>
 
@@ -37,23 +39,23 @@ const FooterTwo = () => {
                   <ul className="list-wrap">
                     <li className="title">Follow us</li>
                     <li>
-                      <a href="#">
-                        <img src="/img/icon/footer_icon01.png" alt="" />
+                      <a href="https://facebook.com/20sDevelopers" target="_blank" rel="noopener noreferrer">
+                        <img src="/img/icon/footer_icon01.png" alt="Facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/img/icon/footer_icon02.png" alt="" />
+                      <a href="https://twitter.com/20sDevelopers" target="_blank" rel="noopener noreferrer">
+                        <img src="/img/icon/footer_icon02.png" alt="Twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/img/icon/footer_icon03.png" alt="" />
+                      <a href="https://linkedin.com/company/20sDevelopers" target="_blank" rel="noopener noreferrer">
+                        <img src="/img/icon/footer_icon03.png" alt="LinkedIn" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <img src="/img/icon/footer_icon04.png" alt="" />
+                      <a href="https://instagram.com/20sDevelopers" target="_blank" rel="noopener noreferrer">
+                        <img src="/img/icon/footer_icon04.png" alt="Instagram" />
                       </a>
                     </li>
                   </ul>

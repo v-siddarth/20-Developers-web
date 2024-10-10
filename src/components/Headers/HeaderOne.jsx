@@ -86,7 +86,7 @@ const HeaderOne = () => {
 
                 <div className="menu-wrap">
                   <nav className="menu-nav">
-                    <div className="logo">
+                    <div className="logo mt-20">
                       <Link to="/">
                         <img src="/img/logo/logo.png" alt="Logo" />
                       </Link>
@@ -107,7 +107,7 @@ const HeaderOne = () => {
                         </li>
 
                         <li className={cn(isActiveClassName("/blog"))}>
-                          <Link to="/blog">Blog</Link>
+                          <Link to="/project-details">Portfolio</Link>
                         </li>
                       </ul>
                     </div>

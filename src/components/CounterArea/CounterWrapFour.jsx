@@ -7,11 +7,11 @@ const CounterWrapFour = () => {
       <ul className="list-wrap">
         <li>
           <CounterWrapFourItem
-            amount={15}
-            suffix="K+"
+            amount={12}
+            suffix="+"
             title={
               <>
-                Entries in <span>Accunting</span>
+                Projects <span>Delivered</span>
               </>
             }
           />
@@ -19,11 +19,11 @@ const CounterWrapFour = () => {
 
         <li>
           <CounterWrapFourItem
-            amount={120}
+            amount={18}
             suffix="+"
             title={
               <>
-                International <span>Programs</span>
+                Satisfied <span>Clients</span>
               </>
             }
           />
@@ -31,22 +31,23 @@ const CounterWrapFour = () => {
 
         <li>
           <CounterWrapFourItem
-            amount={46}
+            amount={14}
             suffix="+"
             title={
               <>
-                Countries in<span>The World</span>
+                Custom <span>Solutions</span>
               </>
             }
           />
         </li>
+
         <li>
           <CounterWrapFourItem
-            amount={17}
+            amount={10}
             suffix="+"
             title={
               <>
-                Awards <span>Programs</span>
+                Innovative <span>Products</span>
               </>
             }
           />

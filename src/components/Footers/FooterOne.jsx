@@ -105,7 +105,7 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="cart-img">
-                  <img src="/img/images/cart_img.png" alt="" />
+                  {/* <img src="/img/images/cart_img.png" alt="" /> */}
                 </div>
               </div>
               <div className="col-md-6">

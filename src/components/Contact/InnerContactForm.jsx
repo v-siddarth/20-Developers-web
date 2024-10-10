@@ -2,7 +2,7 @@ import React from "react";
 
 const InnerContactForm = () => {
   return (
-    <form action="#">
+    <form action="post">
       <div className="form-grp">
         <label htmlFor="name">
           <i className="fas fa-user"></i>

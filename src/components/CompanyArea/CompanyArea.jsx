@@ -15,11 +15,10 @@ const CompanyArea = () => {
             <div className="section-title white-title text-center mb-65">
               <span className="sub-title">Our Company</span>
               <h2 className="title">
-                We Create Creative Designs For Every Web Page
+              We Deliver Innovative Solutions for Your Business Growth
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              At 20s Developers, we specialize in creating tailored solutions that help businesses succeed in the digital world.
               </p>
             </div>
           </div>
@@ -61,7 +60,7 @@ const CompanyArea = () => {
                   </li>
                 </ul>
               </div>
-              <a href="about-me.html" className="btn">
+              <a href="/contact" className="btn">
                 Discover More <span></span>
               </a>
             </div>

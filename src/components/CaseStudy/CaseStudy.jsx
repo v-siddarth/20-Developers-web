@@ -1,6 +1,6 @@
 import React from "react";
 import CaseStudyItem from "./CaseStudyItem";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const CaseStudy = () => {
   const studies = [
@@ -8,50 +8,50 @@ const CaseStudy = () => {
       colClassName: "col-lg-4 col-md-6",
       src: "/img/project/inner_project01.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "E-Commerce Website Development",
+      desc: "Built a robust e-commerce platform for Sanny Audio, enabling streamlined product sales and increased customer engagement.",
     },
     {
       colClassName: "col-lg-4 col-md-6",
       src: "/img/project/inner_project02.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "Insurance Website & Marketing",
+      desc: "Developed a complete website and marketing strategy for The Cover House Insurance Agency, enhancing their online presence.",
     },
     {
       colClassName: "col-lg-4 col-md-6",
       src: "/img/project/inner_project03.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "Mobile App for Mar Football",
+      desc: "Created a mobile app for Mar Football, integrating payment methods and providing custom mobile wallpapers.",
     },
     {
       colClassName: "col-lg-8 col-md-6",
       src: "/img/project/inner_project04.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "InterviewX AI Simulation",
+      desc: "Developed an AI-powered interview simulation platform using advanced technologies like React, Vite, and Firebase.",
     },
     {
       colClassName: "col-lg-4 col-md-6",
       src: "/img/project/inner_project05.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "Custom ERP Solutions",
+      desc: "Designed and implemented custom ERP solutions to optimize business processes for a diverse range of industries.",
     },
     {
       colClassName: "col-lg-6 col-md-6",
       src: "/img/project/inner_project06.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "SaaS & PaaS Development",
+      desc: "Launched multiple innovative SaaS and PaaS products, enhancing business scalability and operational efficiency.",
     },
     {
       colClassName: "col-lg-6 col-md-6",
       src: "/img/project/inner_project07.jpg",
       url: "/project-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      title: "Portfolio & Personal Websites",
+      desc: "Developed custom personal portfolios and websites for professionals, showcasing their expertise and work.",
     },
   ];
 
@@ -63,8 +63,7 @@ const CaseStudy = () => {
             <div className="section-title text-center mb-65">
               <h2 className="title">Case Studies</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+                Explore our successful projects across various industries, including e-commerce, insurance, mobile apps, and custom software solutions.
               </p>
             </div>
           </div>
@@ -77,11 +76,11 @@ const CaseStudy = () => {
             ))}
           </div>
 
-          <div className="more-btn text-center mt-45">
-            <Link to="/about-me" className="btn">
+          {/* <div className="more-btn text-center mt-45">
+            <Link to="/case-studies" className="btn">
               Load More <span></span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

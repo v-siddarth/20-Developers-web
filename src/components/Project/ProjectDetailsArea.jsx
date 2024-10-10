@@ -9,18 +9,15 @@ const ProjectDetailsArea = () => {
           <div className="col-lg-12">
             <div className="project-details-inner">
               <div className="project-details-img">
-                <img src="/img/images/project_details_img.jpg" alt="" />
+                <img src="/img/images/project_details_img.jpg" alt="Project Image" />
               </div>
               <div className="project-details-content">
-                <h2 className="title">Creative Agency</h2>
+                <h2 className="title">Innovative Digital Solutions</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                  tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                  scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                  Scelerisque euismod varius mi, congue eget sed vestibulum,
-                  ornare cras sed nec. There are many variations of passages of
-                  Lorem Ipsum available, but the majority have suffered
-                  alteration in some form have suffered alteration in some form.
+                  At 20s Developers, we provide tailored digital solutions that meet your unique business needs. Our team specializes in web development, mobile app creation, and cutting-edge SaaS & PaaS products. From conceptualization to execution, we focus on delivering quality and driving results. Our solutions empower businesses to grow and succeed in the fast-paced digital world.
+                </p>
+                <p>
+                  Whether you're a startup or an established company, our expertise helps you stay competitive. We take pride in transforming ideas into digital reality, and our focus is always on your success. Let us help you innovate and create a lasting digital impact.
                 </p>
               </div>
 
@@ -36,7 +33,7 @@ const ProjectDetailsArea = () => {
       </div>
 
       <div className="project-shape-wrap">
-        <img src="/img/images/services_details_shape.png" alt="" />
+        <img src="/img/images/services_details_shape.png" alt="Service Details Shape" />
       </div>
     </section>
   );

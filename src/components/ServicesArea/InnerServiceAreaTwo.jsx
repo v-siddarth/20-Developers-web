@@ -6,26 +6,26 @@ const InnerServiceAreaTwo = () => {
     {
       src: "/img/icon/inner_two_services_icon01.png",
       url: "/services-details",
-      titles: ["User Interaction", "Design"],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      titles: ["Web Development", "Design"],
+      desc: `We build responsive, user-friendly websites that help your business grow in the digital space.`,
     },
     {
       src: "/img/icon/inner_two_services_icon02.png",
       url: "/services-details",
-      titles: ["Production", "Design"],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      titles: ["Mobile App Development", "Design"],
+      desc: `Our custom mobile applications are designed to improve customer engagement and provide seamless experiences.`,
     },
     {
       src: "/img/icon/inner_two_services_icon03.png",
       url: "/services-details",
-      titles: ["Branding", "Design"],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      titles: ["Business Growth Solutions", "Marketing"],
+      desc: `We provide comprehensive solutions to grow your business, including marketing, branding, and analytics services.`,
     },
     {
       src: "/img/icon/inner_two_services_icon04.png",
       url: "/services-details",
-      titles: ["Product", "Design"],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      titles: ["SaaS & PaaS Products", "Innovation"],
+      desc: `Our innovative software and platform-as-a-service products are tailored to meet your business needs and ensure scalability.`,
     },
   ];
 
@@ -36,11 +36,10 @@ const InnerServiceAreaTwo = () => {
           <div className="col-xl-7 col-lg-8">
             <div className="section-title text-center mb-65">
               <h2 className="title">
-                We Create Creative Designs For Every Web Page
+                Innovative Solutions for Your Business Needs
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+                At 20s Developers, we offer a wide range of services to ensure your business thrives in the digital age. From web and mobile development to marketing and custom solutions, we have you covered.
               </p>
             </div>
           </div>

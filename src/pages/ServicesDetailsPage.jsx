@@ -12,7 +12,7 @@ const ServicesDetailsPage = () => {
   return (
     <Layout header={1} footer={1} className="" mainClassName="">
       <BreadcrumbArea
-        title={"Web Design"}
+        title={"Service Details"}
         subtitle={"Service Details"}
         className={"breadcrumb-area-two pt-175"}
         showShape={false}
