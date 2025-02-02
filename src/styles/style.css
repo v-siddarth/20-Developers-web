@@ -571,7 +571,7 @@ label {
   transform: scale(1);
 }
 .sticky-menu {
-  position: fixed;
+  position: relative;
   left: 0;
   margin: auto;
   top: 0;
